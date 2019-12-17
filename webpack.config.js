@@ -5,12 +5,15 @@ const isEnvProduction = process.env.NODE_ENV === 'production';
 
 const webpackConfig = {
   mode: isEnvProduction ? 'production' : 'development',
-  entry: './src/index.js',
+  entry: {
+    index: './src/index.js',
+    automount: './src/automount.js'
+  },
   devtool: isEnvProduction ? 'none' : 'eval-source-map',
   output: {
-    filename: 'index.js',
+    filename: '[name].js',
     path: path.resolve(__dirname, 'build'),
-    library: 'MyLibrary',
+    library: 'MoonPhaseWidget',
     libraryTarget: 'umd'
   },
   module: {

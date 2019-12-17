@@ -1,5 +1,5 @@
-import MyLibrary from '../src/index';
+import {MoonPhaseWidget} from '../src/index';
 
 test('Runs without crashing', () => {
-  new MyLibrary();
+  new MoonPhaseWidget();
 });
