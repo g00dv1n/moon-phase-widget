@@ -1,4 +1,3 @@
-import './index.css';
 import getGeoData from './actions/getGeoData';
 import renderWidgetHtml from './actions/renderWidgetHtml';
 
