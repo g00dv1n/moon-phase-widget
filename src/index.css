@@ -1,6 +1,7 @@
 .mph-widget {
   width: 250px;
-  height: 400px;
+  min-height: 400px;
+  height: auto;
   background-color: #DDEAFF;
   word-break: break-all;
   position: relative;
@@ -13,6 +14,7 @@
   color: #212121;
   font-weight: 400;
   font-size: 16px;
+  line-height: normal;
 }
 
 .mph-row {
@@ -51,12 +53,18 @@
   font-size: 18px;
 }
 
+.mph-link a {
+  text-decoration: underline;
+}
+
 .mph-link a:link,
 .mph-link a:visited {
   color: #212121;
+  text-decoration: underline;
 }
 
 .mph-link a:hover,
 .mph-link a:active {
   color: #0000EE;
+  text-decoration: underline;
 }
