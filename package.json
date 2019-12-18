@@ -1,11 +1,13 @@
 {
   "name": "@hodgef/js-library-boilerplate-basic",
-  "version": "1.0.33",
+  "version": "1.0.0",
   "description": "Javascript Minimal Starter Kit for building libraries",
   "main": "build/index.js",
   "scripts": {
     "dev": "./node_modules/.bin/nodemon --watch ./src --ext js,css --exec 'npm run build:dev'",
-    "build:dev": "DEV_URL='true' webpack",
+    "dev:url": "DEV_URL='true' npm run dev",
+    "build:dev:url": "DEV_URL='true' webpack",
+    "build:dev": "webpack",
     "build": "NODE_ENV='production' webpack",
     "test": "jest",
     "prepare": "npm run build",

@@ -7,7 +7,8 @@ const webpackConfig = {
   mode: isEnvProduction ? 'production' : 'development',
   entry: {
     index: './src/index.js',
-    automount: './src/automount.js'
+    automount: './src/automount.js',
+    mopage: './src/mopage.js'
   },
   devtool: isEnvProduction ? 'none' : 'eval-source-map',
   output: {

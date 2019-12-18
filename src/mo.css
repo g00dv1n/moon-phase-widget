@@ -1,0 +1,89 @@
+.mph-widget {
+    word-break: break-all;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}
+
+.mph-row {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.mph-col {
+    width: 300px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mph-widget .moon-phase-ico {
+    width: 40%;
+    margin: 20px 0;
+}
+  
+.mph-widget .moon-phase-ico img {
+    width: 100%;
+}
+
+.mph-widget .phase-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.mph-widget .current-date {
+    font-weight: bold;
+}
+
+.current-place {
+    font-style: italic;
+}
+
+.zodiac-name {
+    margin-bottom: 10px;
+}
+
+.mph-arrow {
+    width: 30px;
+    margin: 15px 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+@keyframes mph-page-loader {
+    0% { transform: translate(-50%,-50%) rotate(0deg); }
+    100% { transform: translate(-50%,-50%) rotate(360deg); }
+}
+.mph-page-loader div {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border: 20px solid #5855cc;
+    border-top-color: transparent;
+    border-radius: 50%;
+}
+.mph-page-loader div {
+    animation: mph-page-loader 1s linear infinite;
+    top: 50%;
+    left: 50%;
+}
+.mph-page-loader {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    transform: translateZ(0) scale(1);
+    backface-visibility: hidden;
+    transform-origin: 0 0;
+    overflow: hidden;
+}
