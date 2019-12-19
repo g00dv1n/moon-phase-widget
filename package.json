@@ -1,7 +1,7 @@
 {
-  "name": "@hodgef/js-library-boilerplate-basic",
-  "version": "1.0.0",
-  "description": "Javascript Minimal Starter Kit for building libraries",
+  "name": "moon-phase-widget",
+  "version": "1.0.1",
+  "description": "Moon phase widget for website",
   "main": "build/index.js",
   "scripts": {
     "dev": "./node_modules/.bin/nodemon --watch ./src --ext js,css --exec 'npm run build:dev'",
@@ -17,16 +17,17 @@
     "type": "git",
     "url": "https://github.com/hodgef/js-library-boilerplate-basic"
   },
-  "author": "Francisco Hodge <hello@franciscohodge.com> (https://github.com/hodgef)",
+  "author": "Alex Brik <hello@franciscohodge.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hodgef/js-library-boilerplate-basic/issues"
+    "url": "https://github.com/g00dv1n/moon-phase-widget/issues"
   },
-  "homepage": "https://github.com/hodgef/js-library-boilerplate-basic",
+  "homepage": "http://moonorganizer.com/en/",
   "keywords": [
-    "library",
-    "starter",
-    "es6"
+    "moon",
+    "phase",
+    "astrology",
+    "astrology"
   ],
   "devDependencies": {
     "@babel/cli": "^7.7.5",
