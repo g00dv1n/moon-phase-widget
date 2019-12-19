@@ -12,7 +12,7 @@ const webpackConfig = {
   },
   devtool: isEnvProduction ? 'none' : 'eval-source-map',
   output: {
-    filename: '[name].js',
+    filename: '[name].min.js',
     path: path.resolve(__dirname, 'build'),
     library: 'MoonPhaseWidget',
     libraryTarget: 'umd'

@@ -18,6 +18,7 @@ class MoonPhaseWidget {
      const moonPhaseData = await this.getMoonPhaseData(geoData.latitude, geoData.longitude);
 
      this.el.innerHTML = this.renderFn(moonPhaseData, geoData);
+     this.loadBackgroundColor()
   }
 
   async getMoonPhaseData(latitude, longitude) {
@@ -36,6 +37,13 @@ class MoonPhaseWidget {
     const moonPhaseData = await res.json();
 
     return moonPhaseData;
+  }
+
+  loadBackgroundColor() {
+    const colorValue = this.el.dataset.color;
+    if (colorValue && this.el.firstElementChild) {
+      this.el.firstElementChild.style.backgroundColor = colorValue;
+    }
   }
 }
 
