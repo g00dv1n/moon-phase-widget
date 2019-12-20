@@ -10,6 +10,7 @@
 * Moon set and moon rise time
 * Moon zodiac sign
 * Super small size (This will not affect the speed of your site)
+* Ability to change the background color
 
 ## How To Install (Easy way)
 The easiest way to install the widget is by using [CDN](https://www.jsdelivr.com/package/gh/g00dv1n/moon-phase-widget)
@@ -25,7 +26,7 @@ Thats all.
 
 If you want you can change the background color by adding your value to ```data-color``` attribute.
 
-Text ```white``` or hex value ```#DDEAFF```
+Text ```white``` or hex value ```#FFFFFF```
 
 
 ## Usage via npm
