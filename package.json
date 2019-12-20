@@ -25,9 +25,9 @@
   },
   "homepage": "https://moonorganizer.com/en/moon-phase-for-today/",
   "keywords": [
+    "moon_phase",
     "moon",
-    "phase",
-    "astrology",
+    "astronomy",
     "astrology"
   ],
   "devDependencies": {
