@@ -1,6 +1,6 @@
 {
   "name": "moon-phase-widget",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Moon phase widget for website",
   "main": "build/index.js",
   "scripts": {
@@ -17,12 +17,13 @@
     "type": "git",
     "url": "https://github.com/hodgef/js-library-boilerplate-basic"
   },
-  "author": "Alex Brik <hello@franciscohodge.com>",
+  "author": "Alex Brik <mr.alex.brik@gmail.com>",
+  "browserslist": "> 0.25%, not dead",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/g00dv1n/moon-phase-widget/issues"
   },
-  "homepage": "http://moonorganizer.com/en/",
+  "homepage": "https://moonorganizer.com/en/moon-phase-for-today/",
   "keywords": [
     "moon",
     "phase",
