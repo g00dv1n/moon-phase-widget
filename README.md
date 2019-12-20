@@ -13,13 +13,13 @@
 * Ability to change the background color
 
 ## How To Install (Easy way)
-The easiest way to install the widget is by using [CDN](https://www.jsdelivr.com/package/gh/g00dv1n/moon-phase-widget)
+The easiest way to install the widget is by using [CDN](https://www.jsdelivr.com/package/npm/moon-phase-widget)
 
 Just copy the code below and paste it where you want to see the widget.
 
 ```
 <div id="moon-phase-widget" data-color="white"></div>
-<script async src="https://cdn.jsdelivr.net/npm/moon-phase-widget@1.3.0/build/automount.min.js">
+<script async src="https://cdn.jsdelivr.net/npm/moon-phase-widget@1.3.1/build/automount.min.js">
 </script>
 ```
 Thats all.
