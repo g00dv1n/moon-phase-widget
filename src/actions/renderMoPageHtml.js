@@ -11,8 +11,6 @@ const arrowSvg = `
 </svg>
 `
 
-const phaseDesc = 'Tommorow the Moon will be in a Waning Gibbous Phase. This is the first phase after the Full Moon occurs. It lasts roughly 7 days with the Moon’s illumination growing smaller each day until the Moon becomes a Last Quarter Moon with a illumination of 50%. The average Moon rise for this phase is between 9am and Midnight depending on the age of the phase. The moon rises later and later each night setting after sunrise in the morning. During this phase the Moon can also be seen in the early morning daylight hours on the western horizon.'
-
 export default function (moonPhaseData, geoData) {
     return `
 <div class="mph-widget">
@@ -32,7 +30,7 @@ export default function (moonPhaseData, geoData) {
         </div>
     </div>
     <div class="mph-arrow">${arrowSvg}</div>
-    <div class="mph-phase-desc">${phaseDesc}</div>
+    <p class="mph-phase-desc">&nbsp;&nbsp;&nbsp;&nbsp;${moonPhaseData.phaseDesc}</p>
 </div>
     `;
 }

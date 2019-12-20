@@ -57,6 +57,25 @@
     margin: 15px 0;
 }
 
+.mph-phase-desc {
+    width: 100%;
+    word-break: normal;
+}
+
+.mph-phase-desc span {
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.mph-desc-link {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    word-break: break-word;
+}
+
 h1 {
     text-align: center;
 }
