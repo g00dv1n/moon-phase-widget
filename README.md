@@ -19,7 +19,7 @@ Just copy the code below and paste it where you want to see the widget.
 
 ```
 <div id="moon-phase-widget" data-color="white"></div>
-<script async src="https://cdn.jsdelivr.net/npm/moon-phase-widget@1.3.1/build/automount.min.js">
+<script async src="https://cdn.jsdelivr.net/npm/moon-phase-widget@1.3.2/build/automount.min.js">
 </script>
 ```
 Thats all.
@@ -38,7 +38,7 @@ npm install moon-phase-widget
 ```
 Import code and styles (if you want):
 ```javascript
-import MoonPhaseWidget from 'moon-phase-widget'
+import { MoonPhaseWidget } from 'moon-phase-widget'
 
 import 'moon-phase-widget/src/index.css'
 
