@@ -1,8 +1,9 @@
-<h1 align="center">Moon phase widget for Website</h1>
+<h2 align="center">Moon phase widget for Website</h1>
 <p align="center"><i>Super tiny (only 3kb minified) javascript library to add awesome moon phase widget to your website. </i></p>
 <p align="center">
   <img src="https://github.com/g00dv1n/moon-phase-widget/raw/master/screenshots/example1.png?raw=true" alt="Moon phase widget for website" style="max-width:75%;">
 </p>
+<p align="center"><i>(This is a screenshot as an example)</i></p>
 
 ## Features
 * Auto Geo detection
