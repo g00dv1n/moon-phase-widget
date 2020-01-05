@@ -20,7 +20,7 @@ Just copy the code below and paste it where you want to see the widget.
 
 ```
 <div id="moon-phase-widget" data-color="white"></div>
-<script async src="https://cdn.jsdelivr.net/npm/moon-phase-widget@1.3.0/build/automount.min.js">
+<script async src="https://cdn.jsdelivr.net/npm/moon-phase-widget@1.4.0/build/automount.min.js">
 </script>
 ```
 Thats all.
@@ -29,6 +29,25 @@ If you want you can change the background color by adding your value to ```data-
 
 Text ```white``` or hex value ```#FFFFFF```
 
+Also, you can choose from different styles of the widget (By adding specific value to ```data-style```).
+
+**Normal** (default style)
+
+**Small:**
+
+```
+<div id="moon-phase-widget" data-color="white" data-style="small"></div>
+<script async src="https://cdn.jsdelivr.net/npm/moon-phase-widget@1.4.0/build/automount.min.js">
+</script>
+```
+
+**Horizontal orientation:**
+
+```
+<div id="moon-phase-widget" data-color="white" data-style="horizontal"></div>
+<script async src="https://cdn.jsdelivr.net/npm/moon-phase-widget@1.4.0/build/automount.min.js">
+</script>
+```
 
 ## Usage via npm
 

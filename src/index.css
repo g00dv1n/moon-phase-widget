@@ -2,7 +2,6 @@
   width: 250px;
   min-height: 400px;
   height: auto;
-  background-color: #DDEAFF; /* default color */ 
   word-break: break-all;
   position: relative;
   display: flex;
@@ -17,6 +16,30 @@
   line-height: normal;
 }
 
+[data-style="small"] .mph-widget {
+  font-size: 12px;
+  width: 150px;
+  min-height: 300px;
+  height: auto;
+}
+
+[data-style="horizontal"] .mph-widget {
+  font-size: 12px;
+  width: 320px;
+  min-height: 100px;
+  height: auto;
+}
+
+.mph-widget-body {
+  display: flex;
+  flex-direction: column;
+}
+
+[data-style="horizontal"] .mph-widget-body {
+  display: flex;
+  flex-direction: row;
+}
+
 .mph-row {
   display: flex;
   flex-direction: row;
@@ -24,6 +47,15 @@
   align-items: center;
   justify-content: center;
   margin: 7px 0;
+}
+
+.mph-col {
+  display: flex;
+  flex-direction: column;
+}
+
+[data-style="horizontal"] .mph-col {
+  width: 500%;
 }
 
 .mph-widget .moon-phase-ico {
@@ -45,12 +77,20 @@
 .mph-row .current-date {
   margin-top: 10px;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.125em;
+}
+
+[data-style="small"] .mph-row .current-date {
+  font-size: 0.9em;
 }
 
 .phase-name{
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.125em;
+}
+
+[data-style="horizontal"] .phase-name{
+  margin-top: 10px;
 }
 
 .mph-link a {

@@ -34,30 +34,36 @@ timezone: "Europe/Kiev"
 export default function (moonPhaseData, geoData) {
     return `
 <div class="mph-widget">
-    <div class="mph-row">
-        <div class="current-date">${moonPhaseData.dateFmt}</div>
-    </div>
-    <div class="mph-row">
-        <div class="current-place">${geoData.city}, ${geoData.country}</div>
-    </div>
-    <div class="mph-row">
-        <div class="moon-phase-ico">
-            <img src="${moonPhaseData.phaseIco}" />
+    <div class="mph-widget-body">
+        <div class="mph-col">
+            <div class="mph-row">
+                <div class="current-date">${moonPhaseData.dateFmt}</div>
+            </div>
+            <div class="mph-row">
+                <div class="current-place">${geoData.city}, ${geoData.country}</div>
+            </div>
+            <div class="mph-row">
+                <div class="moon-phase-ico">
+                    <img src="${moonPhaseData.phaseIco}" />
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="mph-row">
-        <div class="phase-name">${moonPhaseData.phase}</div>
-    </div>
-    <div class="mph-row">
-        <div class="zodiac-name">Moon in <strong>${moonPhaseData.zodiac}</strong></div>
-    </div>
-    <div class="mph-row">
-        <div>Set: </div>
-        <div class="moon-time">${moonPhaseData.set}</div>
-    </div>
-    <div class="mph-row">
-        <div>Rise: </div>
-        <div class="moon-time">${moonPhaseData.rise}</div>
+        <div class="mph-col">
+            <div class="mph-row">
+                <div class="phase-name">${moonPhaseData.phase}</div>
+            </div>
+            <div class="mph-row">
+                <div class="zodiac-name">Moon in <strong>${moonPhaseData.zodiac}</strong></div>
+            </div>
+            <div class="mph-row">
+                <div>Set: </div>
+                <div class="moon-time">${moonPhaseData.set}</div>
+            </div>
+            <div class="mph-row">
+                <div>Rise: </div>
+                <div class="moon-time">${moonPhaseData.rise}</div>
+            </div>
+        </div>
     </div>
     <div class="mph-row mph-link">
         <a href="${moonPhaseData.link}" target="_blank">${moonPhaseData.linkLabel}</a>
