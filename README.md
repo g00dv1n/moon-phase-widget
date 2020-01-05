@@ -12,6 +12,7 @@
 * Moon zodiac sign
 * Super small size (This will not affect the speed of your site)
 * Ability to change the background color
+* 3 different styles (normal, small, horizontal)
 
 ## How To Install (Easy way)
 The easiest way to install the widget is by using [CDN](https://www.jsdelivr.com/package/npm/moon-phase-widget)
