@@ -20,7 +20,7 @@ Just copy the code below and paste it where you want to see the widget.
 
 ```
 <div id="moon-phase-widget" data-color="white"></div>
-<script async src="https://cdn.jsdelivr.net/npm/moon-phase-widget@1.4.0/build/automount.min.js">
+<script async src="https://cdn.jsdelivr.net/npm/moon-phase-widget@1.5.0/build/automount.min.js">
 </script>
 ```
 Thats all.
@@ -37,7 +37,7 @@ Also, you can choose from different styles of the widget (By adding specific val
 
 ```
 <div id="moon-phase-widget" data-color="white" data-style="small"></div>
-<script async src="https://cdn.jsdelivr.net/npm/moon-phase-widget@1.4.0/build/automount.min.js">
+<script async src="https://cdn.jsdelivr.net/npm/moon-phase-widget@1.5.0/build/automount.min.js">
 </script>
 ```
 
@@ -45,7 +45,7 @@ Also, you can choose from different styles of the widget (By adding specific val
 
 ```
 <div id="moon-phase-widget" data-color="white" data-style="horizontal"></div>
-<script async src="https://cdn.jsdelivr.net/npm/moon-phase-widget@1.4.0/build/automount.min.js">
+<script async src="https://cdn.jsdelivr.net/npm/moon-phase-widget@1.5.0/build/automount.min.js">
 </script>
 ```
 

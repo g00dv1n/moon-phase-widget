@@ -4,7 +4,7 @@
   height: auto;
   word-break: break-all;
   position: relative;
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   text-align: center;
   border-radius: 15px;
@@ -18,7 +18,7 @@
 
 [data-style="small"] .mph-widget {
   font-size: 12px;
-  width: 150px;
+  width: 160px;
   min-height: 300px;
   height: auto;
 }
@@ -81,7 +81,7 @@
 }
 
 [data-style="small"] .mph-row .current-date {
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 .phase-name{
