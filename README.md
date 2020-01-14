@@ -17,6 +17,8 @@
 ## How To Install (Easy way)
 The easiest way to install the widget is by using [CDN](https://www.jsdelivr.com/package/npm/moon-phase-widget)
 
+[![](https://data.jsdelivr.com/v1/package/npm/moon-phase-widget/badge)](https://www.jsdelivr.com/package/npm/moon-phase-widget)
+
 Just copy the code below and paste it where you want to see the widget.
 
 ```
