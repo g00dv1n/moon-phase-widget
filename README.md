@@ -54,6 +54,8 @@ Also, you can choose from different styles of the widget (By adding specific val
 
 ## Usage via npm
 
+![npm](https://img.shields.io/npm/dm/moon-phase-widget?style=flat-square)
+
 Install package:
 
 ```
